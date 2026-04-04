@@ -12,7 +12,7 @@ const db = admin.firestore();
 const COLLECTION = 'words';
 const overwrite = true;   // false to add new words
 
-const filename = process.argv[2] || 'inkr8_words.csv';
+const filename = process.argv[2];
 const records = [];
 
 fs.createReadStream(filename)
@@ -26,7 +26,7 @@ fs.createReadStream(filename)
       pronunciation: row.pronunciation,
       frequencyScore: parseInt(row.frequencyScore, 10),
       isActive: row.isActive === 'TRUE' || row.isActive === 'true',
-      addedIn: row.addedIn 
+      addedIn: row.addedIn
     });
   })
   .on('end', async () => {
@@ -41,13 +41,11 @@ fs.createReadStream(filename)
 
       if (!snapshot.exists) {
         const newData = { ...doc };
-        delete newData.word;
         newData.createdAt = admin.firestore.FieldValue.serverTimestamp();
         await docRef.set(newData);
         added++;
       } else if (overwrite) {
         const updateData = { ...doc };
-        delete updateData.word;
         await docRef.update(updateData);
         updated++;
       } else {
