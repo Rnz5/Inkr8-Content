@@ -1,0 +1,29 @@
+name,description,difficulty,themeId,addedIn
+The Prisoner's Dilemma,"Write about two rivals who must choose cooperation or betrayal — without knowing the other's move.",Scribe,The Art of Strategy,pre-alpha-v0.4.0
+Zero‑Sum Thinking,"Argue for or against the belief that one person's gain is always another's loss.",Scribe,The Art of Strategy,pre-alpha-v0.4.0
+The Element of Surprise,"Describe how unexpected moves disrupt perfect plans, using a historical or fictional example.",Stylist,The Art of Strategy,pre-alpha-v0.4.0
+Sun Tzu's Terrain,"Explain how environment (physical, social, digital) determines victory before a single move is made.",Author,The Art of Strategy,pre-alpha-v0.4.0
+The Right to Be Forgotten,"Argue whether people should be able to erase their digital past.",Scribe,Digital Ethics,pre-alpha-v0.4.0
+Algorithmic Censorship,"Write about the tension between removing harmful content and protecting free speech.",Stylist,Digital Ethics,pre-alpha-v0.4.0
+Surveillance Capitalism,"Critique the business model of selling user data for profit.",Author,Digital Ethics,pre-alpha-v0.4.0
+Digital Afterlife,"Explore the ethics of AI chatbots that mimic deceased loved ones.",Novelist,Digital Ethics,pre-alpha-v0.4.0
+Gaslighting as a Tool,"Write about the deliberate erosion of someone's reality — and how to resist it.",Stylist,Cognitive Warfare,pre-alpha-v0.4.0
+The Backfire Effect,"Describe why people double down on false beliefs when presented with contradictory evidence.",Author,Cognitive Warfare,pre-alpha-v0.4.0
+Neurolinguistic Framing,"Explain how word choice (e.g., 'tax relief' vs 'budget adjustment') shapes political opinion.",Author,Cognitive Warfare,pre-alpha-v0.4.0
+Emotional Contagion,"Write about how moods spread through groups — from riots to boardroom panics.",Novelist,Cognitive Warfare,pre-alpha-v0.4.0
+Panopticon vs Sanctuary,"Contrast spaces designed for surveillance versus spaces for refuge.",Author,Architectural Poetics,pre-alpha-v0.4.0
+Brutalism and Honesty,"Argue whether raw concrete buildings are oppressive or authentic.",Novelist,Architectural Poetics,pre-alpha-v0.4.0
+The Memory Palace,"Describe how spatial layouts can enhance memory and learning.",Novelist,Architectural Poetics,pre-alpha-v0.4.0
+Ruin Porn,"Critique the aesthetic fascination with abandoned industrial sites.",Laureate,Architectural Poetics,pre-alpha-v0.4.0
+Mind Uploading,"Argue whether a digital copy of your brain would still be you.",Novelist,Posthumanism,pre-alpha-v0.4.0
+Cyborg Ethics,"Write about the line between therapeutic enhancement (prosthetics) and transhumanist upgrade.",Laureate,Posthumanism,pre-alpha-v0.4.0
+The Uncanny Valley,"Explain why near‑human robots and AI provoke disgust instead of empathy.",Laureate,Posthumanism,pre-alpha-v0.4.0
+Genetic Class Divide,"Explore a future where only the rich can afford cognitive or physical enhancement.",Luminary,Posthumanism,pre-alpha-v0.4.0
+The Replication Crisis,"Write about psychology's failure to reproduce landmark studies — and what it means for truth.",Author,Epistemic Rupture,pre-alpha-v0.4.0
+Conspiracy as Therapy,"Argue that conspiracy beliefs sometimes fulfill emotional needs better than official narratives.",Novelist,Epistemic Rupture,pre-alpha-v0.4.0
+The Death of Expertise,"Critique the modern distrust of credentialed authorities in favor of amateur opinion.",Laureate,Epistemic Rupture,pre-alpha-v0.4.0
+Post‑Truth as Strategy,"Describe how political actors weaponize ambiguity to make facts irrelevant.",Luminary,Epistemic Rupture,pre-alpha-v0.4.0
+The Sublime in War,"Write about why massive destruction (storms, battles, explosions) can feel beautiful.",Laureate,The Aesthetics of Violence,pre-alpha-v0.4.0
+Gladiatorial Modernity,"Compare ancient blood sports to modern MMA, esports, or reality TV competition.",Luminary,The Aesthetics of Violence,pre-alpha-v0.4.0
+Ritualized Cruelty,"Explore how societies legitimize violence through ritual (executions, duels, hazing).",Pantheon,The Aesthetics of Violence,pre-alpha-v0.4.0
+The Gaze of Suffering,"Critique the ethics of photographing or filming victims for art or news.",Pantheon,The Aesthetics of Violence,pre-alpha-v0.4.0
