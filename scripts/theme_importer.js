@@ -8,10 +8,9 @@ admin.initializeApp({
 });
 
 const db = admin.firestore();
-
 const COLLECTION = 'themes';
-const overwrite = true;    // false to add new themes
-const filename = process.argv[2];
+const overwrite = true;
+const filename = process.argv[2]
 
 const records = [];
 
@@ -34,8 +33,7 @@ fs.createReadStream(filename)
     for (const doc of records) {
       const docRef = db.collection(COLLECTION).doc(doc.name);
       const snapshot = await docRef.get();
-      const data = { ...doc };
-      delete data.name;
+      const data = { ...doc };   
 
       if (!snapshot.exists) {
         data.createdAt = admin.firestore.FieldValue.serverTimestamp();
