@@ -26,7 +26,8 @@ fs.createReadStream(filename)
       pronunciation: row.pronunciation,
       frequencyScore: parseInt(row.frequencyScore, 10),
       isActive: row.isActive === 'TRUE' || row.isActive === 'true',
-      addedIn: row.addedIn
+      addedIn: row.addedIn,
+      randomIndex: Math.random()
     });
   })
   .on('end', async () => {

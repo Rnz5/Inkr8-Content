@@ -21,7 +21,8 @@ fs.createReadStream(filename)
       name: row.name,
       description: row.description,
       difficulty: row.difficulty,
-      addedIn: row.addedIn
+      addedIn: row.addedIn,
+      randomIndex: Math.random()
     });
   })
   .on('end', async () => {

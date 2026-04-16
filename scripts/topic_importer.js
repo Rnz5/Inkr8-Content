@@ -22,7 +22,8 @@ fs.createReadStream(filename)
       description: row.description,
       difficulty: row.difficulty,
       themeId: row.themeId,
-      addedIn: row.addedIn
+      addedIn: row.addedIn,
+      randomIndex: Math.random()
     });
   })
   .on('end', async () => {
