@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/KiLgK6a.png" alt="Inkr8 Logo" width="400"/>
+  <img src="https://i.imgur.com/qZ3EzRg.png" alt="Inkr8 DB Logo" width="400"/>
 </p>
 
 <h1 align="center">Inkr8-Content</h1>
